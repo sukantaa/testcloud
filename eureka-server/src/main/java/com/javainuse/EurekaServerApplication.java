@@ -10,6 +10,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @EnableEurekaServer
 public class EurekaServerApplication extends SpringBootServletInitializer{
 
+	/**
+	 * war and jar package compatible due to the SpringApplicationBuilder configure()
+	 * function, it is a call back method, call by the container of Servers like Tomcat
+	 */
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(EurekaServerApplication.class);
