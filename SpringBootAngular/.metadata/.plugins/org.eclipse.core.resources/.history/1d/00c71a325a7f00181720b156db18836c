@@ -1,0 +1,8 @@
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://discovery-eureka:8761/eureka/
+server:
+  port: 8762

@@ -1,0 +1,4 @@
+INDEX VERSION 1.4+D:\workspace\SpringBootAngular\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2855975172.index
+4281178314.index
+1262549639.index

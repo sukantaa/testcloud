@@ -1,0 +1,11 @@
+#Thu Jul 05 15:41:34 IST 2018
+vl=How many times the 'Finish' button pressed during the day
+l=Wizard class name
+ct=jbt
+d=1530785494061
+c=0
+cmp=usage
+a=finishWizard
+cl=org.springframework.ide.eclipse.boot.wizard.guides.GSImportWizard
+v=2.2.102
+s=0

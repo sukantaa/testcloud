@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBootHelloWorld
+Implementation-Version: 0.0.1-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: lenovo
+Implementation-Vendor-Id: com.javainuse
+Spring-Boot-Version: 1.4.1.RELEASE
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: org.springframework.boot.loader.WarLauncher
+Start-Class: com.javainuse.SpringBootHelloWorldApplication
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://projects.spring.io/spring-boot/employee-pro
+ ducer/
+
