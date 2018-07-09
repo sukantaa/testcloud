@@ -91,16 +91,20 @@
 		</plugins>
 	</build>
 <repositories>
-	<repository>
-		<id>myMavenRepo.read</id>
-		<url>https://mymavenrepo.com/repo/agBmZ7iKoHuFv803RnEF/</url> 
-	</repository>
-</repositories>
+        <repository>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoReadUrl}</url>
+        </repository>
+    </repositories>
 
 <distributionManagement>
-	<repository>
-		<id>myMavenRepo.read</id>
-		<url>https://mymavenrepo.com/repo/PkJj5QWbnae2olditYUu/</url>
-	</repository>
-</distributionManagement>
+        <repository>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoWriteUrl}</url>
+        </repository>
+        <snapshotRepository>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoWriteUrl}</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
