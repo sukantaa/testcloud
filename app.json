@@ -1,0 +1,16 @@
+{
+  "name": "testcloud",
+  "description": "cloudapps",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
