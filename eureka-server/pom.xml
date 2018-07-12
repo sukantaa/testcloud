@@ -14,12 +14,12 @@
 	<name>eureka-server</name>
 	<description>Demo project for Spring Boot</description>
 
-	<parent>
+<!--	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+	</parent>-->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
